@@ -1,7 +1,8 @@
 title: Suspicious WMI Event Subscription Persistence 
 id: 256e75b8-bbca-4516-b3c7-6d4d945f309e
 status: experimental
-description: description: Phát hiện việc đăng ký ActiveScriptEventConsumer hoặc CommandLineEventConsumer thông qua Event ID 5861 của Microsoft-Windows-WMI-Activity/Operational, dấu hiệu của kỹ thuật WMI Event Subscription Persistence (T1546.003)
+description: Phát hiện việc đăng ký ActiveScriptEventConsumer hoặc CommandLineEventConsumer thông qua Event ID 5861 của Microsoft-Windows-WMI-Activity/Operational, dấu hiệu của kỹ thuật WMI Event Subscription Persistence
+references:   
     - https://attack.mitre.org/techniques/T1546/003/
 author: khanh.tran
 date: 2026-06-25
